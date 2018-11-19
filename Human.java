@@ -9,7 +9,8 @@ public class Human extends Creature
 {
     private final int TOP_HP = 30;
     private final int TOP_STR = 18;
-    
+    private final int LOW_HP = 10;
+   
     public Human()
     {
        super(); 
@@ -27,6 +28,15 @@ public class Human extends Creature
        if (TOP_HP < hp)
        {
            super.setHP(TOP_HP);
+       }
+       else
+       {
+           super.setHP(hp);
+       }
+       
+       if(LOW_HP > hp)
+       {
+           super.setHP(LOW_HP);
        }
        else
        {

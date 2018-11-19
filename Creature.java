@@ -10,7 +10,7 @@ public class Creature
    private int hp;
    private int hitPoints;
    private int strength;
-   private final int LOW_HP = 5;
+   private final int LOW_HP = 8;
    private final int LOW_STR = 5;
    Random randomGenerator = new Random();
    
@@ -30,7 +30,7 @@ public class Creature
    {
       if (LOW_HP > hp)
       {
-         hitPoints = 5; 
+         hitPoints = 8; 
       }
       else
       {
