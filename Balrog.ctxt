@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Balrog
+comment0.text=\r\n\ \ This\ is\ the\ Balrog\ subtype\ class.\ \r\n\ \ Balrogs\ attack\ twice\ each\ round.\r\n\r\n\ @author\ (Michael\ Moretti)\r\n\ @version\ (19\ November\ 2019)\r\n
+comment1.params=
+comment1.target=Balrog()
+comment2.params=hp\ str
+comment2.target=Balrog(int,\ int)
+numComments=3

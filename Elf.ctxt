@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Elf
+comment0.text=\r\n\ This\ is\ the\ Elf\ subtype\ class.\ \r\n\ Elves\ have\ a\ 10%\ chance\ to\ do\ magical\ damage.\ \r\n\ \r\n\ @author\ Michael\ Moretti\ \r\n\ @version\ 19\ November\ 2018\r\n
+comment1.params=
+comment1.target=Elf()
+comment2.params=hp\ str
+comment2.target=Elf(int,\ int)
+comment3.params=
+comment3.target=int\ obtainDamage()
+numComments=4

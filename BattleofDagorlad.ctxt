@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BattleofDagorlad
+comment0.text=\r\n\ Battle\ of\ Dagorlad\r\n\ \r\n\ @author\ Michael\ Moretti\r\n\ @version\ 19\ November\ 2019\r\n
+comment1.params=
+comment1.target=BattleofDagorlad()
+comment2.params=
+comment2.target=void\ setUpBattle()
+comment3.params=
+comment3.target=void\ battle()
+numComments=4

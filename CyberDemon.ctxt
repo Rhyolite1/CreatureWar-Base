@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CyberDemon
+comment0.text=\r\n\ This\ is\ the\ CyberDemon\ subtype\ class.\r\n\r\n\ @author\ (Michael\ Moretti)\r\n\ @version\ (19\ November\ 2019)\r\n
+comment1.params=
+comment1.target=CyberDemon()
+comment2.params=hp\ str
+comment2.target=CyberDemon(int,\ int)
+numComments=3
