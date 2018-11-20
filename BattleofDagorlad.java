@@ -18,7 +18,6 @@ public class BattleofDagorlad
      LastAlliance = new ArrayList<Creature>();
      randomGenerator = new Random();
      setUpBattle();
-     battle();
    }
    
   private void setUpBattle()
@@ -28,25 +27,25 @@ public class BattleofDagorlad
      System.out.println("\tHitpoints \tStrength");
      
      System.out.println("Human \n");
-     for (int i = 0; i < theMordorForces/2; i++)
+     for (int i = 0; i < theLastAlliance/2; i++)
      {
          int hp = randomGenerator.nextInt(20);
          int str = randomGenerator.nextInt(20);
          
-         MordorForces.add(new Human(hp, str));
-         System.out.println("\t\t" + MordorForces.get(i).getHP() + "\t\t" 
-         + MordorForces.get(i).getStrength()); 
+         LastAlliance.add(new Human(hp, str));
+         System.out.println("\t\t" + LastAlliance.get(i).getHP() + "\t\t" 
+         + LastAlliance.get(i).getStrength()); 
      }
      
      System.out.println("Elf \n");
-     for (int i = theMordorForces/2; i < theMordorForces; i++)
+     for (int i = theLastAlliance/2; i < theMordorForces; i++)
      {
          int hp = randomGenerator.nextInt(24);
          int str = randomGenerator.nextInt(13);
          
-         MordorForces.add(new Elf(hp, str));
-         System.out.println("\t\t" + MordorForces.get(i).getHP() + "\t\t" 
-         + MordorForces.get(i).getStrength());
+         LastAlliance.add(new Elf(hp, str));
+         System.out.println("\t\t" + LastAlliance.get(i).getHP() + "\t\t" 
+         + LastAlliance.get(i).getStrength());
      }
      
      System.out.println("Demon \n");
@@ -70,6 +69,7 @@ public class BattleofDagorlad
          System.out.println("\t\t" + MordorForces.get(i).getHP() + "\t\t" 
          + MordorForces.get(i).getStrength());
      }
+     battle();
   }
   
   private void battle()
@@ -145,7 +145,7 @@ public class BattleofDagorlad
        System.out.println("The Forces of Mordor won with " 
        + (MordorForces.size()- i) + "troop(s) alive.");
        System.out.println("A shadow is cast of Middle-earth, the power "
-       +"of the Ring could not be undone");
+       +"of the Ring could not be undone.");
     } 
     if (i > y)
     {
@@ -153,7 +153,7 @@ public class BattleofDagorlad
        + (LastAlliance.size()- i) + "troop(s) alive.");
        System.out.println("Isildur, prince of Gondor and Arnor, took up his "
        + "father's sword. And Sauron, enemy of the free peoples of Middle-Earth,"
-       + "was defeated. ");
+       + "was defeated.");
     }
 }
 }
